@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:png2gif="http://schemas.android.com/apk/res/com.minephone.png2gifview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#80ffff00"
+    android:orientation="vertical" >
+
+    <com.minephone.png2gifview.Png2GifView
+        android:id="@+id/img1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        png2gif:drawable="@drawable/loading100"
+        png2gif:duration="100"
+        png2gif:isOneShot="false"
+        png2gif:xcount="1"
+        png2gif:ycount="26" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button" />
+
+    <com.minephone.png2gifview.Png2GifView
+        android:id="@+id/img2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        png2gif:drawable="@drawable/sprite_check"
+        png2gif:duration="50"
+        png2gif:isOneShot="true"
+        png2gif:xcount="12"
+        png2gif:ycount="1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="button2" />
+
+</LinearLayout>

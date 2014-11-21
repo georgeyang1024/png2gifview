@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Png2GifView">
+        <!-- y分割的数量 -->
+        <attr name="ycount" format="integer" />
+
+        <!-- 横向分割的数量 -->
+        <attr name="xcount" format="integer" />
+
+        <!-- 放在drawable的图片资源,放在hlm等会变形,不能正确分割图片 -->
+        <attr name="drawable" format="reference"/>
+
+        <!-- 播放间隔 -->
+        <attr name="duration" format="integer" />
+
+        <!-- 是否只播放一遍 -->
+        <attr name="isOneShot" format="boolean" />
+
+    </declare-styleable>
+
+</resources>
